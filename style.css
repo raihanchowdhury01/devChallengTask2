@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('./image/earth.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.text{
+    text-align: center;
+}
+.logoText{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #2d2a2a;
+    padding: 5px 10px;
+    gap: 10px;
+    width: 160px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.responsiveText{
+    color: #b0b0b0;
+}
+.htmlCss{
+    color: gray;
+}
+.logoText > img{
+    width: 20px;
+}
+.colorText{
+    background: linear-gradient(90deg , #9800de , #fb00ff8d);
+    width: 300px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fullText , .colorText{
+    font-size: 50px;
+}
+/* card design  */
+.card>img{
+    width: 100%;
+}
+.container{
+    width: 35%;
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color: white;
+    color: #2d2a2a;
+    border-radius: 20px;
+}
+.card{
+    border-top: 20px solid aqua;
+    border-left: 20px solid aquamarine;
+    border-right: 20px solid aquamarine;
+    border-bottom: 20px solid aqua;
+    border-radius: 3%;
+}
+.topTitle{
+    display: flex;
+    border-top: 20px solid aquamarine;
+    border-bottom: 20px solid aquamarine;
+}
+.designFont{
+    font-size: 20px;
+    padding-left: 5px;
+    color: #9800de;
+    padding: 5px;
+}
+.topTitle>p{
+    /* width: 100%; */
+    border-left: 20px solid aquamarine;
+}
+.title{
+padding: 2%;
+border-bottom: 10px solid #45836e;
+}
+.textParagraph , .footerText{
+    color: gray;
+}
+.hr{
+    border: 10px solid #80d3b7;
+    position: relative;
+}
+.hr>p{
+    position: absolute;
+    top: -20px;
+    color: #2d2a2a;
+}
+.border{
+    border: 1px dashed gray;
+}
